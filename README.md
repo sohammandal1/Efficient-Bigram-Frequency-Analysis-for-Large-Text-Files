@@ -54,10 +54,7 @@ IIT Kharagpur is the oldest IIT.
 
 ```
 .
-├── code.py                          # Main implementation
-├── output_0_bigrams.txt             # Intermediate file (per partition)
-├── output_1_bigrams.txt             # ...
-├── shuffled_sorted_bigrams.txt      # Final aggregated bigrams
+├── biagram_analysis.py              # Main implementation
 └── README.md                        # Project documentation
 ```
 
