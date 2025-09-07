@@ -5,7 +5,7 @@ The implementation is inspired by the **MapReduce paradigm**, as taught in Lectu
 
 ---
 
-## 📌 Problem Statement
+## Problem Statement
 
 You are given a large text file containing real-world textual data. Your task is to implement a **map function** that:
 - Reads the file in **partitions** using a user-specified buffer size (RAM in MB).
@@ -23,7 +23,7 @@ The program must handle:
 
 ---
 
-## ⚙️ Example
+## Example
 
 **Input text:**
 ```
@@ -38,7 +38,7 @@ IIT Kharagpur is the oldest IIT.
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Partitioning**: Reads input file in chunks based on user-defined buffer size (MB).  
 - **Tokenizer**: Extracts only alphabetic words (`[a-zA-Z]+`).  
@@ -50,7 +50,7 @@ IIT Kharagpur is the oldest IIT.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 .
@@ -60,7 +60,7 @@ IIT Kharagpur is the oldest IIT.
 
 ---
 
-## 🖥️ Requirements
+## Requirements
 
 - **Python 3.10+**
 - [NLTK](https://www.nltk.org/) library
@@ -78,7 +78,7 @@ nltk.download('stopwords')
 
 ---
 
-## ▶️ Usage
+## Usage
 
 Run from the Linux command line:
 
@@ -104,7 +104,7 @@ This will:
 
 ---
 
-## 📊 Output
+## Output
 
 **Example final output (`shuffled_sorted_bigrams.txt`):**
 ```
@@ -123,7 +123,7 @@ This will:
 
 ---
 
-## 🛠️ Notes
+## Notes
 
 The implementation is robust against:
 - Non-English characters
