@@ -1,7 +1,7 @@
 # Bigram Frequency Counter with Map-Reduce (Shuffle & Sort)
 
 This project implements a **Map function from scratch** with shuffle and sort functionality to find the most frequent **bi-grams** (pairs of consecutive words) in a given text file.  
-The implementation is inspired by the **MapReduce paradigm**, as taught in Lecture 8.  
+The implementation is inspired by the **MapReduce paradigm**.
 
 ---
 
